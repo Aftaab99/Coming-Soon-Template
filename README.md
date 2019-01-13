@@ -8,13 +8,13 @@ It can also store subcription email IDs in your Firebase cloud firestore.
 Copy your firebase API credentails and replace the dumpy variable in firebase_configuration.js with your project credentials.
 
 They can be found under Project overview -> web.
-![api configurations](https://github.com/Aftaab99/coderush/blob/master/img/api_configuration.png)
+![api configurations](https://github.com/Aftaab99/Coming-Soon-Template/blob/master/img/api_configuration.png)
 
 Next create a cloud firestore for your project. This can done through the firebase console(Database -> Cloud Firestore).
 Next create a collection called 'Emails'.
 
-![setting up firestore](https://github.com/Aftaab99/coderush/blob/master/img/setting_firestore1.png)
-![setting up firestore](https://github.com/Aftaab99/coderush/blob/master/img/setting_firestore2.png)
+![setting up firestore](https://github.com/Aftaab99/Coming-Soon-Template/blob/master/img/setting_firestore1.png)
+![setting up firestore](https://github.com/Aftaab99/Coming-Soon-Template/blob/master/img/setting_firestore2.png)
 
 ## Changing date
 
