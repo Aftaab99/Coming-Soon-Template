@@ -3,6 +3,8 @@
 A responsive coming soon web page template made with Boostrap 4.
 It can also store subcription email IDs in your Firebase cloud firestore.
 
+[Demo](https://aftaab99.github.io/Coming-Soon-Template/)
+
 ## Setting up with your own Firebase project
 
 Copy your firebase API credentails and replace the dumpy variable in firebase_configuration.js with your project credentials.
