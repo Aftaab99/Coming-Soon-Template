@@ -1,0 +1,25 @@
+.timer-box {
+      background: rgba(10, 10, 10, 0.9);
+      color: #fff;
+      border-radius: 0.4em;
+      font-family: 'Barlow', sans-serif;
+      align-content: center;
+    }
+
+    .timer-box-num {
+      font-size: 30pt;
+      text-align: center;
+    }
+
+    .timer-box-text {
+      font-size: 10pt;
+      text-align: center;
+    }
+
+    .content {
+      font-family: 'Barlow', sans-serif;
+    }
+
+    span.h4 {
+      font-family: 'Barlow', sans-serif;
+    }
