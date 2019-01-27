@@ -24,8 +24,8 @@ Currently the countdown timer counts to 30 days since the page was loaded. It ca
 
 Replace
 
-    countDownDate.setDate(countDownDate.getDate() + 30).getTime();
+    countDownDate.setDate(countDownDate.getDate() + 30);
 
 with
 
-    countDownDate.setDate('January 17, 2019 03:24:00').getTime();
+    countDownDate.setDate('January 17, 2019 03:24:00');
