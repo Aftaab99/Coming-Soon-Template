@@ -4,7 +4,6 @@ function validateEmail(email) {
     return re.test(String(email).toLowerCase());
 }
 
-
 var config = {
     apiKey: "<YOUR FIREBASE API KEY>",
     authDomain: "<FIREBASE AUTH DOMAIN>",
@@ -38,6 +37,7 @@ $(document).ready(function () {
                     })
                         .then(function (docRef) {
                             console.log("Document written with ID: ", docRef.id);
+                            $("#notifs-form-btn").text("Notified!");
                         })
                         .catch(function (error) {
                             console.error("Error adding document: ", error);

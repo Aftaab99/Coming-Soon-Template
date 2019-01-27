@@ -30,5 +30,17 @@ i {
 }
 
 a > i.social-icon:hover {
-  text-shadow: 1px 1px 3px rgba(0,0,0,0.35);
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.35);
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+  -webkit-box-shadow: 0 0 0 30px white inset !important;
+}
+
+#notifs-forn-input,
+#notifs-form-input:focus {
+  border: solid 2px #ccc;
 }
